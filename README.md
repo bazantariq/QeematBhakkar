@@ -10,12 +10,12 @@ People will be aware from the current prices. Corruption will stop. And everyone
 I use some other repositories in this project
 
 
-# 1    implementation 'com.github.clans:fab:1.6.4'
-# 2    implementation 'com.github.d-max:spots-dialog:0.7@aar'
-# 3    implementation 'com.github.arcadefire:nice-spinner:1.4'
-# 4    implementation 'io.trialy.library:trialy:1.0.9'
-# 5    implementation 'com.thefinestartist:finestwebview:1.2.7'
-# 6    implementation 'com.intuit.sdp:sdp-android:1.0.6'
-# 7    implementation 'com.github.f0ris.sweetalert:library:1.5.6'
-# 8    implementation 'com.github.javiersantos:AppUpdater:2.7'
-# 9    implementation 'com.github.medyo:android-about-page:1.2.5'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.github.arcadefire:nice-spinner:1.4'
+    implementation 'io.trialy.library:trialy:1.0.9'
+    implementation 'com.thefinestartist:finestwebview:1.2.7'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.github.f0ris.sweetalert:library:1.5.6'
+    implementation 'com.github.javiersantos:AppUpdater:2.7'
+    implementation 'com.github.medyo:android-about-page:1.2.5'
