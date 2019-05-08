@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DC.DC_Rates">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/darkgreen"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:text="شکایات کے لئے دیئے گئے نمبر پر کال کریں"/>
+
+            <TextView
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="0300-4499634"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text="30 April, 2019 "
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text=" تاریخ اجراء:"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TableLayout
+            android:background="@color/lightgreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:weightSum="3"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text=" قیمت"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:background="@color/lightgray"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text=" نام"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:background="@color/lightgray"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:text=" نمبر شمار"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
